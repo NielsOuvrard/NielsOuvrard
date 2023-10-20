@@ -36,7 +36,7 @@ A lot of my work is private, but I have some public repositories that you can ch
 
 - Computer science: Software development, Algorithms, Data structures
 - Programming Languages: C, C++, Python, Rust, React Native
-- Web Development: Vue.js, TypeScript, HTML, CSS PHP, MySQL
+- Web Development: Vue.js, TypeScript, HTML, CSS, PHP, MySQL
 
 ## Connect with Me
 
