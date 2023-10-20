@@ -17,7 +17,6 @@ A lot of my work is private, but I have some public repositories that you can ch
 
 ## About Me
 - 🎓 Studying at [Epitech](https://www.epitech.eu/)
-- 💻 Coding in C, C++, Python, and more
 - 🧗🏻 Climbing in my free time
 - ♦️ Playing poker
 
@@ -47,12 +46,12 @@ A lot of my work is private, but I have some public repositories that you can ch
 * later maybe
 - 🌐 Website: [Your Website](https://www.yourwebsite.com)
 - 🐦 Twitter: [@YourTwitterHandle](https://twitter.com/yourtwitterhandle)
-- -->
+- 
 
 ## GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api/?username=NielsOuvrard&show_icons=true&theme=radical)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NielsOuvrard&layout=compact&theme=radical)
+- -->
 
-Feel free to explore my projects and repositories. If you have any questions or want to collaborate, feel free to reach out! 😄
-=
+### Feel free to explore my projects and repositories. If you have any questions or want to collaborate, feel free to reach out! 😄
