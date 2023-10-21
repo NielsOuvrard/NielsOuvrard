@@ -13,8 +13,6 @@ TODO
 
 I'm a third-year student at Epitech, passionate about coding and technology. Welcome to my GitHub page!
 
-A lot of my work is private, but I have some public repositories that you can check out below.
-
 ## About Me
 - 🎓 Studying at [Epitech](https://www.epitech.eu/)
 - 🧗🏻 Climbing in my free time
