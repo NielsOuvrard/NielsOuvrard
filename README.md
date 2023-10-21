@@ -50,8 +50,10 @@ A lot of my work is private, but I have some public repositories that you can ch
 
 - -->
 ## GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api/?username=NielsOuvrard&show_icons=true&theme=radical&rank_icon=github)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NielsOuvrard&layout=compact&theme=radical)
+<div>
+    <img src="https://github-readme-stats.vercel.app/api/?username=NielsOuvrard&show_icons=true&theme=radical&rank_icon=github" width="400" height="200" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NielsOuvrard&layout=compact&theme=radical" width="400" height="200" />
+</div>
 
 Feel free to explore my projects and repositories. If you have any questions or want to collaborate, feel free to reach out! 😄
