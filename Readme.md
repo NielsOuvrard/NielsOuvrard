@@ -34,7 +34,7 @@ I'm a third-year student at Epitech, passionate about coding and technology. Wel
 ## My Skills
 
 -   Computer science: Software development, Algorithms, Data structures
--   Programming Languages: C, C++, Python, Rust
+-   Programming Languages: C, C++, Python, Haskell, Rust, Assembly eZ80
 <!-- - Web Development: Vue.js, TypeScript, HTML, CSS, PHP, MySQL -->
 
 ## My project currently in progress
