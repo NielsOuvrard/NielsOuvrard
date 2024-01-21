@@ -11,7 +11,7 @@ TODO
 
 # Hello, I'm Niels Ouvrard 👋
 
-I'm a third-year student at Epitech, passionate about coding and technology. Welcome to my GitHub page!
+I'm a third-year student at Epitech, passionate about embedded software programming.
 
 ## About Me
 
