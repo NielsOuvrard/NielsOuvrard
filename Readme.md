@@ -14,9 +14,10 @@ TODO
 I'm a third-year student at Epitech, passionate about coding and technology. Welcome to my GitHub page!
 
 ## About Me
-- 🎓 Studying at [Epitech](https://www.epitech.eu/)
-- 🧗🏻 Climbing in my free time
-- 🎬 Passionate about Quentin Tarantino's cinema
+
+-   🎓 Studying at [Epitech](https://www.epitech.eu/)
+-   🧗🏻 Climbing in my free time
+-   🎬 Passionate about Quentin Tarantino's cinema
 
 <!-- ## My Projects
 
@@ -32,21 +33,31 @@ I'm a third-year student at Epitech, passionate about coding and technology. Wel
 
 ## My Skills
 
-- Computer science: Software development, Algorithms, Data structures
-- Programming Languages: C, C++, Python, Rust, React Native
-- Web Development: Vue.js, TypeScript, HTML, CSS, PHP, MySQL
+-   Computer science: Software development, Algorithms, Data structures
+-   Programming Languages: C, C++, Python, Rust
+<!-- - Web Development: Vue.js, TypeScript, HTML, CSS, PHP, MySQL -->
+
+## My project currently in progress
+
+[asm-eZ80-program](https://github.com/NielsOuvrard/asm-eZ80-program):
+It's in object to learn the assembly language of the `eZ80 processor` (TI-83 Premium CE calculator).
+
+<!-- -   Assembly eZ80 (TI-83 Premium CE calculator) -->
 
 ## Connect with Me
 
-- 📧 Email: [niels.ouvrard@epitech.eu](mailto:niels.ouvrard@epitech.eu)
-- 🔗 LinkedIn: [Niels Ouvrard](https://www.linkedin.com/in/niels-ouvrard-2810951ab/)
+-   📧 Email: [niels.ouvrard@epitech.eu](mailto:niels.ouvrard@epitech.eu)
+-   🔗 LinkedIn: [Niels Ouvrard](https://www.linkedin.com/in/niels-ouvrard-2810951ab/)
 <!--
-* later maybe
-- 🌐 Website: [Your Website](https://www.yourwebsite.com)
-- 🐦 Twitter: [@YourTwitterHandle](https://twitter.com/yourtwitterhandle)
-- 
 
-- -->
+*   later maybe
+
+-   🌐 Website: [Your Website](https://www.yourwebsite.com)
+-   🐦 Twitter: [@YourTwitterHandle](https://twitter.com/yourtwitterhandle)
+-
+
+-   -->
+
 ## GitHub Stats
 
 <div>
