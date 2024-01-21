@@ -65,4 +65,4 @@ It's in object to learn the assembly language of the `eZ80 processor` (TI-83 Pre
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NielsOuvrard&layout=compact&theme=radical" width="400" height="200" />
 </div>
 
-Feel free to explore my projects and repositories. If you have any questions or want to collaborate, feel free to reach out! 😄
+<!-- Feel free to explore my projects and repositories. If you have any questions or want to collaborate, feel free to reach out! 😄 -->
