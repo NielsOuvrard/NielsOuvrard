@@ -36,12 +36,12 @@ I'm a third-year student at Epitech, passionate about embedded software programm
 -   Computer science: Software development, Algorithms, Data structures
 -   Programming Languages: C, C++, Python, Haskell, Rust, Assembly eZ80
 <!-- - Web Development: Vue.js, TypeScript, HTML, CSS, PHP, MySQL -->
-
+<!-- 
 ## My project currently in progress
 
 [asm-eZ80-program](https://github.com/NielsOuvrard/asm-eZ80-program):
 It's in object to learn the assembly language of the `eZ80 processor` (TI-83 Premium CE calculator).
-
+-->
 <!-- -   Assembly eZ80 (TI-83 Premium CE calculator) -->
 
 ## Connect with Me
