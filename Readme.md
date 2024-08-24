@@ -18,7 +18,7 @@ I'm a third-year student at Epitech, passionate about embedded software programm
 -   🎓 Studying at [Epitech](https://www.epitech.eu/)
 -   🌎 Currently at Guadalajara, Mexico 🇲🇽
 -   🧗🏻 Climbing in my free time
--   🎬 Passionate about Quentin Tarantino's cinema
+-   🎬 Passionate about cinema
 -   🌱 I’m currently learning Godot 🤖
 
 <!-- ## My Projects
