@@ -11,7 +11,7 @@ TODO
 
 # Hello, I'm Niels Ouvrard 👋
 
-I'm a third-year student at Epitech, passionate about embedded software programming.
+I'm a fourth-year student at Epitech, passionate about embedded software programming.
 
 ## About Me
 
