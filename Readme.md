@@ -19,7 +19,7 @@ I'm a fourth-year student at Epitech, passionate about embedded software program
 -   🌎 Currently at Guadalajara, Mexico 🇲🇽
 -   🧗🏻 Climbing in my free time
 -   🎬 Passionate about cinema
--   🌱 I’m currently learning Godot 🤖
+-   🌱 I’m currently learning Swift with Metal 
 
 <!-- ## My Projects
 
@@ -38,7 +38,7 @@ I'm a fourth-year student at Epitech, passionate about embedded software program
 -   Computer science: Software development, Algorithms, Data structures
 -   Programming Languages: C, C++, Python, Haskell <!-- , Rust, Assembly eZ80 -->
 -   Web Development: PHP, Vue 3, TypeScript, MySQL
--   Video Game Development: Godot 🤖, Pixelart with Piskel
+-   Video Game Development: Godot 🤖
 <!-- 
 ## My project currently in progress
 
