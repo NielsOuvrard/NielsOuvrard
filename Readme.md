@@ -11,7 +11,7 @@ TODO
 
 # Hello, I'm Niels Ouvrard 👋
 
-I'm a fourth-year student at Epitech, passionate about embedded software programming.
+I'm a fourth-year student at Epitech, passionate about embedded software and low-level GPU programming.
 
 ## About Me
 
@@ -19,7 +19,7 @@ I'm a fourth-year student at Epitech, passionate about embedded software program
 -   🌎 Currently at Guadalajara, Mexico 🇲🇽
 -   🧗🏻 Climbing in my free time
 -   🎬 Passionate about cinema
--   🌱 I’m currently learning Swift with Metal 
+-   🌱 I’m currently learning Apple Metal 3 
 
 <!-- ## My Projects
 
@@ -37,9 +37,10 @@ I'm a fourth-year student at Epitech, passionate about embedded software program
 
 -   Computer science: Software development, Algorithms, Data structures
 -   Programming Languages: C, C++, Python, Haskell <!-- , Rust, Assembly eZ80 -->
+-   GPU Programming: Metal 3 with Swift 
 -   Web Development: PHP, Vue 3, TypeScript, MySQL
 -   Video Game Development: Godot 🤖
-<!-- 
+<!--
 ## My project currently in progress
 
 [asm-eZ80-program](https://github.com/NielsOuvrard/asm-eZ80-program):
