@@ -1,0 +1,201 @@
+<html lang=""en>
+    <meta charset="UTF-8">
+    <title>Portfolio | Ouvrard Niels</title>
+    <link rel="icon" type="image/png" href="http://ouvrard.niels.free.fr/pp.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/008ee94b34.js" crossorigin="anonymous"></script>
+    <head class="header">
+        <div class="headerContainer">
+            <div class="logoContainer" onclick="window.location.href='http://ouvrard.niels.free.fr'""> <!-- changer ça -->
+                <img src="http://ouvrard.niels.free.fr/pp.png" alt="Niels Ouvrard Logo" class="LogoOuvrardNiels"/>
+                <span class="headerName">Niels Ouvrard</span>
+            </div>
+            <div class="headerMain">
+                <ul class="headerLinks">
+                    <a href="#home" class="headerLink">Home</a>
+                    <a href="#about" class="headerLink">About</a>
+                    <a href="#experience" class="headerLink">Experience</a>
+                    <a href="#contact" class="headerLink">Contact</a>
+                </ul>
+            </div>
+            <label for="toggle"><img src="https://d33wubrfki0l68.cloudfront.net/79e75114856ae61628d2ad26504e3ff4ab2c71b6/f06a4/assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu"></label>
+            <input type="checkbox" id="toggle">
+            <div class="main_pages">
+                <ul class="header__sm-menu-links">
+                    <li class="header__sm-menu-link">
+                      <a class="linkHeaderBurger" href="#home"> Home </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                      <a class="linkHeaderBurger" href="#about"> About </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                      <a class="linkHeaderBurger" href="#experience"> Projects </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                      <a class="linkHeaderBurger" href="#contact"> Contact </a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </head>
+    
+    <section class="home" id="home">
+        <div class="homeContent">
+            <h1 class="homeTitle typewriter">Hey, I'm Niels Ouvrard</h1>
+            <div>
+                <p class="homePresentation">I'm currently a 21-year-old exchange student at Universidad Panamericana in Guadalajara, Mexico 🇲🇽.</p>
+                <p class="homePresentation">I'm passionate about embedded software and low-level GPU programming.</p>
+            </div>
+            <!-- <a href="#experience" class="Btn">Experience</a>
+            <a href="#contact" class="Btn btnContact" style="margin-top: 15px;">Contact</a> -->
+        </div>
+        <a class="scroll-link" href="#about">
+            <svg class="mouse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 130" preserveAspectRatio="xMidYMid meet">
+            <g fill="none" fill-rule="evenodd">
+                <rect width="70" height="118" x="1.5" y="1.5" stroke="#FFF" stroke-width="3" rx="36"/>
+                <circle class="scroll" cx="36.5" cy="31.5" r="4.5" fill="black"/>
+            </g>
+        </svg>
+        </a>
+    </section>
+    <section class="about" id="about">
+        <div class="aboutContent">
+            <h1 class="aboutTitle">About me</h1>
+            <span class="separator"></span>
+            <p class="aboutPres">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+        </div>
+        <div class="aboutContainer">
+            <div class="getToKnowMe">
+                <h3 class="titleKnowMe">Get to know me!</h3>
+                <p class="presKnowMe">I'm currently a 21-year-old exchange student at <strong><i>Universidad Panamericana</i></strong> in Guadalajara, Mexico, where I'm studying Video Games development 🎮, Microcontrollers 💾, Apple Metal 3 as part of my 4th year at Epitech Marseille, a computer engineering school.</p>
+                <p class="presKnowMe">I'm a convinced autodidact, I'm currently learning <strong><i>Apple Metal 3</i></strong>, a low-level GPU API with `Metal By Tutorials` by Begbie C.</p>
+                <p class="presKnowMe">Outside my studies, I love <strong><i>climbing</i></strong>, as I have years of experience, in block or with harness 🧗🏻‍♀️. And the cinema 🎬, with Kubrick and Hitchock.</p>
+            </div>
+            <div class="skills">
+                <h3 class="titleSkills">My Skills</h3>
+                <div class="mySkills">
+                    <div class="skill">C</div>
+                    <div class="skill">C++</div>
+                    <div class="skill">Swift</div>
+                    <div class="skill">Metal 3</div>
+                    <div class="skill">Python</div>
+                    <div class="skill">Git</div>
+                    <div class="skill">Godot 4</div>
+                    <div class="skill">Haskell</div>
+                </div>
+                <h3 class="titleSkills">And some web-devlopment</h3>
+                <div class="mySkills">
+                    <div class="skill">Vue.js</div>
+                    <div class="skill">php</div>
+                    <div class="skill">SQL</div>
+                    <div class="skill">javascript</div>
+                    <div class="skill">typescript</div>
+                    <div class="skill">HTML</div>
+                    <div class="skill">CSS</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="experience" id="experience">
+        <div class="experienceContent">
+            <h1 class="aboutTitle">Experience</h1>
+            <span class="separator"></span>
+            <p class="aboutPres">Here you can find my school, university and professional experiences</p>
+        </div>
+        <div class="expeContainer">
+            <div class="expePro">
+                <h3 class="titleExpePro">My Professional Experiences</h3>
+                <div class="school">
+                    <h4 class="titleSchools">Embedded Software Developer internship - <span class="schoolName">Indienov</span></h4>
+                    <p class="descriptionSchool"><span class="yearsSchool">February - May 2024</span> Internship done in my 3rd year at Epitech.</p>
+                    <p class="descriptionSchool">
+                        Developed a test harness and a <strong><i>driver in C</i></strong> for a "Texas Instruments LP5521"
+                        LED based on the manufacturer's documentation.
+                        <br>
+                        Also created various production tools in Python, such as developing a class for
+                        connecting to AWS servers using canonical requests, for a unit testing software in MQTT
+                    </p>
+                </div>
+                <div class="school">
+                    <h4 class="titleSchools">Epitech Trainer part-time internship - <span class="schoolName">Epitech School</span></h4>
+                    <p class="descriptionSchool"><span class="yearsSchool">2023 - 2024, 10 months</span> Internship done in my 2nd and 3rd year at Epitech.</p>
+                    <p class="descriptionSchool">
+                        Trained first and second-year students in C and C++.
+                        Delivered lessons on C libraries, project presentations, and evaluations for two groups of 60 students each
+                    </p>
+                </div>
+                <div class="school">
+                    <h4 class="titleSchools">Frontend Developer Internship - <span class="schoolName">French Founders</span></h4>
+                    <p class="descriptionSchool"><span class="yearsSchool">June - December 2022</span> Internship done in my 2nd year at Epitech.</p>
+                    <p class="descriptionSchool">
+                        Created multiple web pages using Vue.js, integrated with the company's backend, and migrated several pages from Vue 2 to Vue 3.
+                    </p>
+                </div>
+            </div>
+            <div class="expeSco">
+                <h3 class="titleExpeSco">My School Career</h3>
+                <div class="school">
+                    <h4 class="titleSchools">Specializing in Video Games, microcontrollers, and mathematics  - <span class="schoolName">Universidad Panamericana</span></h4>
+                    <p class="descriptionSchool">
+                        <span class="yearsSchool">2024-2025</span> Last 2 semesters, some stuff I've done:
+                        <br>
+                        - Developed a video game using Godot 4:
+                        <a href="https://nielsouvrard.github.io/" target="_blank">The Shadow Of Heaven</a>. <br>
+                        - Worked on microcontroller projects with the STM32 Blue Pill.
+                        <a href="https://github.com/NielsOuvrard/STM32F103C8T6-Works" target="_blank">GitHub Repository</a>. <br>
+                        - Studied advanced mathematics, including linear and geometric algebra, and quaternions.
+                    </p>
+                </div>
+                <div class="school">
+                    <h4 class="titleSchools">MASTER IN COMPUTER ENGINEERIGN - <span class="schoolName">Epitech</span></h4>
+                    <p class="descriptionSchool">
+                        <span class="yearsSchool">2021-2026</span>
+                        Master program. Currently in 4th year. Some of the projects I worked on:
+                        <br>
+                        - C-Like language compilateur and interpreter, in Haskell.
+                        <a href="https://github.com/NielsOuvrard/GLaDOS" target="_blank">GitHub Repository</a>. <br>
+                        - C++ program implementing fundamental cryptography systems such as XOR, AES, RSA, and PGP.
+                        <a href="https://github.com/NielsOuvrard/Cryptography" target="_blank">GitHub Repository</a>. <br>
+                        - Chat application that allows users to communicate with each other in real-time. all in CLI, using mySQL and C.
+                        <a href="https://github.com/NielsOuvrard/my_teams" target="_blank">GitHub Repository</a>. <br>
+
+                    </p>
+                </div>
+                <div class="school">
+                    <h4 class="titleSchools">Baccalaureate - <span class="schoolName">Lycée Jean Monnet</span></h4>
+                    <p class="descriptionSchool"><span class="yearsSchool">2018-2021</span> Mention "Good", specializing in:</p>
+                    <p class="descriptionSchool">
+                        Mathematics
+                        <br>
+                        Political, economic, and social sciences
+                        <br>
+                        Physics-Chemistry
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contactContainer">
+            <div class="experienceContent">
+                <h1 class="aboutTitle">Contact</h1>
+                <span class="separator"></span>
+                <p class="aboutPres">Here you can find my different social networks and ways to contact me.</p>
+            </div>
+            <div class="iconContainer">
+                <a href="https://www.linkedin.com/in/niels-ouvrard-2810951ab/" class="icon">
+                    <i class="fa-brands fa-linkedin fa-4x" style="color: black;"></i>
+                </a>
+                <a href="https://github.com/NielsOuvrard" class="icon">
+                    <i class="fa-brands fa-github fa-4x" style="color: black;"></i>
+                </a>
+                <a href="mailto:ouvrardniels@gmail.com" class="icon">
+                    <i class="fa-solid fa-envelope fa-4x" style="color: black;"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+            <p class="copyright">&copy; Copyright 2023. Made by Martin Ramdane, edited by Niels Ouvrard.</p>
+    </footer>
+</html>

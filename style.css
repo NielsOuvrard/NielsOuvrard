@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700;900;500;400;200;600&display=swap');
+
+/* Define CSS variables at the root level */
+:root {
+    --primary-blue: #0f59fa;
+    --secondary-blue: #0f59fa;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior:smooth
+}
+
+@media only screen and (max-width: 75em) {
+    html {
+        font-size:59%
+    }
+}
+
+@media only screen and (max-width: 62.5em) {
+    html {
+        font-size:56%
+    }
+}
+textarea {
+    resize:none
+}
+@media only screen and (min-width: 112.5em) {
+    html {
+        font-size:65%
+    }
+}
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    line-height: 1.5;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family:inherit
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 10px 100px rgba(0,0,0,.1);
+}
+
+.headerContainer {
+    position: fixed;
+    z-index: 10000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 10px 100px rgba(0,0,0,.1);
+    width: 100%;
+    padding: 0.5rem 3rem;
+    /* border: 10px solid red; */
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    transition: color .3s;
+    text-decoration: none;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+label, #toggle, .main_pages {
+    display: none;
+    transition: all .3s;
+}
+
+@media only screen and (max-width: 62.5em) {
+    label {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10rem;
+        color:#111;
+        cursor: pointer;
+        padding-right: 5rem;
+    }
+
+    .header__main-ham-menu {
+        width: 70px;
+        height: 70px;
+    }
+
+    .headerMain {
+        display: none;
+    }
+    .headerContainer {
+        min-height: 17rem;
+        justify-content: space-between;
+        padding: 0.5rem 5rem;
+    }
+
+    #toggle:checked + .main_pages {
+        display:block;
+        /* flex-direction: column; */
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        top: 100%;
+        left: 0;
+        /* opacity: 0; */
+        transition: all .3s;
+        box-shadow: 0 5px 5px 0 rgb(0 0 0 / 10%);
+        -webkit-box-shadow: 0 5px 5px 0 rgb(0 0 0 / 10%);
+        -moz-box-shadow: 0 5px 5px 0 rgba(0,0,0,.1);
+        min-height: 17rem;
+        justify-content: space-between;
+        padding: 0.5rem 5rem;
+    }
+
+}
+
+.header__sm-menu-links {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    width: 100%;
+}
+
+.linkHeaderBurger {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    text-decoration: none;
+    padding: 2.5rem 3rem;
+    font-size: 3rem;
+    color: #333;
+    text-align: right;
+    border-bottom: 1px solid #eee;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color .3s;
+}
+
+li {
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.logoContainer:hover, .headerLink:hover{
+    color:  var(--primary-blue);
+    cursor: pointer;
+}
+
+.LogoOuvrardNiels {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.headerName {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.headerLinks {
+    display: flex;
+}
+
+ul {
+    list-style-type: disc;
+    margin-block-start: 0.8em;
+    margin-block-end: 0.8em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 35px;
+}
+
+.headerLink {
+    padding: 2.2rem 3rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bolder;
+    transition: color .3s;
+    text-decoration: none;
+}
+
+.home {
+    color: #fff;
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./common-bg.svg);
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    min-height: 80rem;
+    max-height: 120rem;
+}
+
+.homeContent {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 92%;
+    transform: translate(-50%,-50%);
+    max-width: 90rem;
+    align-items:  center;
+    gap: 40px;
+}
+
+.homeTitle {
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #111;
+    font-weight:900;
+    text-align: center;
+}
+
+.typewriter {
+    overflow: hidden;
+    border-right: 5px solid #111;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation:
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100%}
+}
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #111; }
+  }
+
+.homePresentation {
+    font-size: 2.2rem;
+    color: #111;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Btn {
+    display: flex;
+    justify-content: center;
+    box-sizing:inherit;
+    border-radius: 5px;
+    background-color:  var(--primary-blue);
+    text-align: center;
+    text-transform: uppercase;
+    color: #111;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform .3s;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    padding: 1.3rem 3.5rem;
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+.Btn:hover {
+    transform: translate(0,-10%);
+}
+
+.mouse {
+	width: 25px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.scroll {
+	animation-name: scroll;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.650, -0.550, 0.250, 1.500);
+	animation-iteration-count: infinite;
+	transform-origin: 50% 20.5px;
+	will-change: transform, opacity;
+	opacity: 1;
+}
+
+.scroll-link {
+	position: absolute;
+	bottom: 1rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+@keyframes scroll {
+	0%, 20% {
+		transform: translateY(0) scaleY(1);
+	}
+	100% {
+        transform: translateY(36px) scaleY(2);
+		opacity: 0;
+	}
+}
+
+
+.about {
+    background: #fafafa;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    padding: 15rem 0;
+    gap: 50px;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.aboutTitle {
+    font-size: 4rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #111;
+    text-align: center;
+}
+
+.separator {
+    background-color:  var(--primary-blue);
+    width: 40px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.aboutPres {
+    color: #555;
+    font-size: 2rem;
+    line-height: 1.6;
+    max-width: 50rem;
+    text-align: center;
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-left: 6rem;
+    gap: 7rem;
+}
+
+.getToKnowMe {
+    display: flex;
+    flex-direction: column;
+    max-width: 65rem;
+    gap: 20px;
+}
+
+h3 {
+    font-size: 2.8rem;
+    font-weight: 900;
+    padding-bottom: 1rem;
+    text-align: start;
+}
+
+.presKnowMe {
+    color: #666;
+    font-size: 1.8rem;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mySkills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    max-width: 50rem;
+}
+
+.skill {
+    background: rgba(153,153,153,.2);
+    border-radius: 5px;
+    color: #666;
+    padding: 0.6rem 1.3rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    padding: 15rem 0;
+    gap: 75px;
+}
+
+.expeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.expePro {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1200px;
+    flex: 1 1 50%; /* modification ici */
+}
+
+.expeSco {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1200px;
+    flex: 1 1 50%; /* modification ici */
+}
+
+
+.experienceContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.titleSchools {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: start;
+}
+
+.schoolName {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: start;
+    color: var(--primary-blue);
+}
+
+.yearsSchool {
+    color: #e8f1ff;
+    font-size: 1.8rem;
+    text-align:start;
+    background-color: #0f59fa;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 0.25rem 1rem;
+}
+
+.descriptionSchool {
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align:start;
+}
+
+.school {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact {
+    color: #fff;
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./common-bg.svg);
+    background-position: center;
+    position: relative;
+    padding: 15rem 0;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.icon {
+    width: 54px;
+    height: 54px;
+    box-shadow: 0 10px 100px rgba(0,0,0,.1);
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-self: center;
+    justify-content: center;
+}
+
+.icon:hover {
+    transform: translate(0,-10%);
+}
+
+.footer {
+    background-color: #111;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width: 37.5em) {
+    .homeTitle {
+        font-size: 3rem;
+    }
+    .homePresentation {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .expePro {
+        max-width: 900px;
+    }
+    .expeSco {
+        max-width: 900px;
+    }
+}
+
+@media only screen and (max-width: 62.5em) {
+    .aboutContainer {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 0 3rem;
+        /* text-align: center; */
+    }
+    .expeContainer {
+        padding: 0;
+    }
+    .btnContact {
+        align-self: center;
+    }
+    .presKnowMe {
+        text-align: left;
+        font-size: 2rem;
+    }
+    .mySkills {
+        justify-content: center;
+    }
+    .school {
+        padding: 0 5rem;
+    }
+    .getToKnowMe {
+        max-width: 90rem;
+    }
+    .aboutTitle {
+        font-size: 7rem;
+    }
+    .aboutPres {
+        font-size: 3rem;
+        max-width: 70rem;
+    }
+    .Btn {
+        font-size: 3.5rem;
+        padding: 1.3rem 14.5rem;
+    }
+    .skill {
+        padding: 0.6rem 4rem;
+        font-size: 2rem;
+    }
+    .mySkills {
+        max-width: 80rem;
+    }
+    .homeTitle {
+        font-size: 6.5rem;
+    }
+    .homePresentation {
+        font-size: 3.5rem;
+    }
+    .titleSchools, .schoolName {
+        font-size: 3rem;
+    }
+    .yearsSchool, .descriptionSchool {
+        font-size: 2rem;
+    }
+    .footer {
+        min-height: 5vh;
+    }
+    .logoContainer {
+        gap: 3rem;
+    }
+    .headerName {
+        font-size: 3.5rem;
+    }
+    .LogoOuvrardNiels {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .presKnowMe {
+        font-size:1.7rem
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .titleKnowMe, .titleSkills, .titleExpeSco, .titleExpePro {
+        font-size:2.4rem
+    }
+}
+
+
+@media only screen and (max-width: 62.5em) {
+    h3 {
+        text-align: center;
+        font-size: 5rem;
+    }
+}
+
