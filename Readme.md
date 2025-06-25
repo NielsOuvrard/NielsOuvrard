@@ -11,7 +11,7 @@ TODO
 
 # Hello, I'm Niels Ouvrard 👋
 
-I'm a fourth-year student at Epitech, passionate about embedded software and low-level GPU programming.
+I'm a fifth-year student at Epitech, passionate about embedded software and robotics.
 
 ## About Me
 
